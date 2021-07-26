@@ -1,0 +1,159 @@
+{
+  "version": "0.2.0",
+  "configurations": [
+    {
+      "name": "[Debug] Launch Start Page",
+      "type": "cppvsdbg",
+      "request": "launch",
+      "program": "D:\\Program\\Godot\\godot-3.3.2-stable\\bin\\godot.windows.tools.64",
+      "args": [],
+      "stopAtEntry": false,
+      "cwd": "${fileDirname}",
+      "environment": [],
+      "console": "externalTerminal"
+    },
+    {
+      "name": "[Debug] Launch Editor",
+      "type": "cppvsdbg",
+      "request": "launch",
+      "program": "D:\\Program\\Godot\\godot-3.3.2-stable\\bin\\godot.windows.tools.64",
+      "args": [
+        "-e",
+        "--path",
+        "${workspaceFolder}\\demo"
+      ],
+      "stopAtEntry": false,
+      "cwd": "${fileDirname}",
+      "environment": [],
+      "console": "externalTerminal",
+      "MIMode": "gdb",
+    },
+    {
+      "name": "[Debug] Launch Game",
+      "type": "cppvsdbg",
+      "request": "launch",
+      "program": "D:\\Program\\Godot\\godot-3.3.2-stable\\bin\\godot.windows.tools.64",
+      "args": [
+        "--path",
+        "${workspaceFolder}\\demo",
+        "Node.tscn"
+      ],
+      "stopAtEntry": false,
+      "cwd": "${fileDirname}",
+      "environment": [],
+      "console": "externalTerminal",
+      "MIMode": "gdb",
+    },
+    {
+      "name": "[Debug] Build & Launch Editor",
+      "type": "cppvsdbg",
+      "request": "launch",
+      "program": "D:\\Program\\Godot\\godot-3.3.2-stable\\bin\\godot.windows.tools.64",
+      "args": [
+        "-e",
+        "--path",
+        "${workspaceFolder}\\demo"
+      ],
+      "stopAtEntry": false,
+      "cwd": "${fileDirname}",
+      "environment": [],
+      "console": "externalTerminal",
+      "MIMode": "gdb",
+      "preLaunchTask": "Build Debug"
+    },
+    {
+      "name": "[Debug] Build & Game Editor",
+      "type": "cppvsdbg",
+      "request": "launch",
+      "program": "D:\\Program\\Godot\\godot-3.3.2-stable\\bin\\godot.windows.tools.64",
+      "args": [
+        "--path",
+        "${workspaceFolder}\\demo",
+        "Node.tscn"
+      ],
+      "stopAtEntry": false,
+      "cwd": "${fileDirname}",
+      "environment": [],
+      "console": "externalTerminal",
+      "MIMode": "gdb",
+      "preLaunchTask": "Build Debug"
+    },
+    {
+      "name": "[Release-Debug] Launch Start Page",
+      "type": "cppvsdbg",
+      "request": "launch",
+      "program": "D:\\Program\\Godot\\godot-3.3.2-stable\\bin\\godot.windows.opt.tools.64",
+      "args": [],
+      "stopAtEntry": false,
+      "cwd": "${fileDirname}",
+      "environment": [],
+      "console": "externalTerminal"
+    },
+    {
+      "name": "[Release-Debug] Launch Editor",
+      "type": "cppvsdbg",
+      "request": "launch",
+      "program": "D:\\Program\\Godot\\godot-3.3.2-stable\\bin\\godot.windows.opt.tools.64",
+      "args": [
+        "-e",
+        "--path",
+        "${workspaceFolder}\\demo"
+      ],
+      "stopAtEntry": false,
+      "cwd": "${fileDirname}",
+      "environment": [],
+      "console": "externalTerminal",
+      "MIMode": "gdb",
+    },
+    {
+      "name": "[Release-Debug] Launch Game",
+      "type": "cppvsdbg",
+      "request": "launch",
+      "program": "D:\\Program\\Godot\\godot-3.3.2-stable\\bin\\godot.windows.opt.tools.64",
+      "args": [
+        "--path",
+        "${workspaceFolder}\\demo",
+        "Node.tscn"
+      ],
+      "stopAtEntry": false,
+      "cwd": "${fileDirname}",
+      "environment": [],
+      "console": "externalTerminal",
+      "MIMode": "gdb",
+    },
+    {
+      "name": "[Release-Debug] Build & Launch Editor",
+      "type": "cppvsdbg",
+      "request": "launch",
+      "program": "D:\\Program\\Godot\\godot-3.3.2-stable\\bin\\godot.windows.opt.tools.64",
+      "args": [
+        "-e",
+        "--path",
+        "${workspaceFolder}\\demo"
+      ],
+      "stopAtEntry": false,
+      "cwd": "${fileDirname}",
+      "environment": [],
+      "console": "externalTerminal",
+      "MIMode": "gdb",
+      "preLaunchTask": "Build Release-Debug"
+    },
+    {
+      "name": "[Release-Debug] Build & Game Editor",
+      "type": "cppvsdbg",
+      "request": "launch",
+      "program": "D:\\Program\\Godot\\godot-3.3.2-stable\\bin\\godot.windows.opt.tools.64",
+      "args": [
+        "--path",
+        "${workspaceFolder}\\demo",
+        "Node.tscn"
+      ],
+      "stopAtEntry": false,
+      "cwd": "${fileDirname}",
+      "environment": [],
+      "console": "externalTerminal",
+      "MIMode": "gdb",
+      "preLaunchTask": "Build Release-Debug"
+    }
+  ]
+}
