@@ -1,0 +1,51 @@
+{
+  "version": "2.0.0",
+  "tasks": [
+    {
+      "label": "Build Debug",
+      "type": "shell",
+      "command": "scons",
+      "group": "build",
+      "args": [
+        "platform=windows",
+        "bits=64",
+        "verbose=yes",
+        "target=debug",
+        "tools=yes",
+        "-j",
+        "12"
+      ],
+      "problemMatcher": "$msCompile"
+    },
+    {
+      "label": "Build Release-Debug",
+      "type": "shell",
+      "command": "scons",
+      "group": "build",
+      "args": [
+        "platform=windows",
+        "bits=64",
+        "verbose=yes",
+        "target=release_debug",
+        "tools=yes",
+        "-j",
+        "12"
+      ],
+      "problemMatcher": "$msCompile"
+    },
+    {
+      "label": "Build Clean",
+      "type": "shell",
+      "command": "scons",
+      "args": [
+        "platform=windows",
+        "--clean"
+      ],
+      "group": "build",
+      "problemMatcher": "$msCompile",
+      "options": {
+        "env": {}
+      }
+    }
+  ]
+}

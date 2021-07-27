@@ -1,0 +1,16 @@
+{
+    "configurations": [
+        {
+            "name": "TestGodot",
+            "includePath": [
+                "${workspaceFolder}/godot-cpp/include",
+                "${workspaceFolder}/godot-cpp/include/core",
+                "${workspaceFolder}/godot-cpp/include/gen",
+                "${workspaceFolder}/godot-cpp/godot-headers"
+            ],
+            "cStandard": "c17",
+            "cppStandard": "c++17"
+        }
+    ],
+    "version": 4
+}

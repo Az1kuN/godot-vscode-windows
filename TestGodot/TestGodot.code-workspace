@@ -1,0 +1,23 @@
+{
+	"folders": [
+		{
+			"name": "TestGodot",
+			"path": "."
+		},
+		{
+			"name": "Godot 3.3.2",
+			"path": "D:\\Program\\Godot\\godot-3.3.2-stable"
+		}
+	],
+	"settings": {
+		"typescript.tsc.autoDetect": "off",
+		"files.associations": {
+			"cstdlib": "cpp"
+		}
+	},
+	"extensions": {
+		"recommendations": [
+			"ms-vscode.cpptools"
+		]
+	}
+}
